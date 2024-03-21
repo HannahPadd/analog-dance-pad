@@ -2,7 +2,15 @@
 
 
 
-### Linux
+## Linux
+
+### Ubuntu/Debian
+#### Prerequisites
+
+
+### Arch
+#### Prerequisites
+
 
 ## Windows
 ### Prerequisites
