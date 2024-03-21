@@ -1007,7 +1007,7 @@ void Device::Init()
 
 	connectionManager = new ConnectionManager();
 
-	// searching = true;
+	searching = true;
 }
 
 #ifdef DEVICE_SERVER_ENABLED

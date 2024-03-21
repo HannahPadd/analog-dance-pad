@@ -3,7 +3,7 @@
     "configurations": [
         {
             "name": "(msvc) Launch",
-            "type": "cppvsdbg",
+            "type": "cppdbg",
             "request": "launch",
             // Resolved by CMake Tools:
             "program": "${command:cmake.launchTargetPath}",
