@@ -21,6 +21,6 @@
 1. ```git clone https://github.com/HannahPadd/analog-dance-pad.git --recursive && cd analog-dance-pad\adp-tool```
 2. ```cmake -S adp-tool -B adp-tool/BuildWin && cmake --build adp-tool/BuildWin --config Release```
 
-### Mac?
 
-### FreeBSD
+## Mac?
+
