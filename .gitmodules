@@ -40,3 +40,6 @@
 [submodule "adp-tool/lib/zlib"]
 	path = adp-tool/lib/zlib
 	url = https://github.com/madler/zlib
+[submodule "adp-tool/vcpkg"]
+	path = adp-tool/vcpkg
+	url = https://github.com/microsoft/vcpkg.git
