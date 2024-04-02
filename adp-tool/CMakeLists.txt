@@ -96,7 +96,7 @@ set(GUI_SOURCES
 
 set(GUI_LIBS
 	${GLOBAL_LIBS}
-	opengl32
+	GL
 	imgui::imgui
 	unofficial::nativefiledialog::nfd)
 
@@ -154,7 +154,7 @@ if(UNIX)
 	)
 
 	install(
-	    FILES "${CMAKE_CURRENT_SOURCE_DIR}/cmake/deb/99_adp.rules"
+	    FILES "${CMAKE_CURRENT_SOURCE_DIR}/cmake/deb/70-adp.rules"
 	    DESTINATION "/etc/udev/rules.d/"
 	)
 	
