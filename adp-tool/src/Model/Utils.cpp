@@ -2,6 +2,8 @@
 
 #include <Model/Utils.h>
 
+#include <cstdint>
+
 using namespace std;
 
 namespace adp {

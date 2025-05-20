@@ -113,7 +113,14 @@ set(GUI_LIBS
 )
 
 if(NOT EMSCRIPTEN)
+	if (UNIX)
+		set(OpenGL_GL_PREFERENCE GLVND)
+		find_package(OpenGL REQUIRED)
+		list(APPEND GUI_LIBS unofficial::nativefiledialog::nfd OpenGL::GLU)
+	endif()
+	if (WIN32)
 	list(APPEND GUI_LIBS unofficial::nativefiledialog::nfd opengl32)
+	endif()
 endif()
 
 if(WIN32)
